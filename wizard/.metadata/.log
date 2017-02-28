@@ -1,0 +1,163 @@
+!SESSION 2017-02-21 08:00:29.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_122-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.ice.client.rcp.sdk_product
+Command-line arguments:  -data /home/kfu/Documents/vaadin-app/wizard -os linux -ws gtk -arch x86_64 -product org.eclipse.ice.client.rcp.sdk_product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-02-21 08:00:30.423
+!MESSAGE Could not bind a reference of component org.eclipse.january.geometry.model.factory. The reference is: Reference[name = IGeometryImporterService, interface = org.eclipse.january.geometry.model.importer.IGeometryImporterService, policy = dynamic, cardinality = 0..n, target = null, bind = register, unbind = null]
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-02-21 08:00:30.600
+!MESSAGE Both 'org.eclipse.january.geometry.xtext.iges' and 'org.eclipse.january.geometry.xtext.vtk' register a package for 'http://www.eclipse.org/january/geometry/xtext/IGES'
+
+!ENTRY org.eclipse.january.geometry.xtext.vtk 2 0 2017-02-21 08:00:30.688
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.january.geometry.xtext.obj
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.january.geometry.xtext.vtk.service.VTKGeometryImporterService
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.eclipse.january.geometry.model.importer.IGeometryImporterService]
+	references = null
+	located in bundle = org.eclipse.january.geometry.xtext.vtk_0.1.1.201701112037 [477]
+]
+Component2: Component[
+	name = org.eclipse.january.geometry.xtext.obj
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.january.geometry.xtext.obj.service.OBJGeometryImporterService
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.eclipse.january.geometry.model.importer.IGeometryImporterService]
+	references = null
+	located in bundle = org.eclipse.january.geometry.xtext.obj_0.1.1.201701112037 [474]
+]  
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-02-21 08:00:33.754
+!MESSAGE Removing part descriptor with the 'org.eclipse.eavp.viz.plotviewer.CSVDataTableViewer' id and the 'CSV Data View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.ui 4 4 2017-02-21 08:00:34.827
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.
+!SESSION 2017-02-23 13:38:25.463 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_122-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.ice.client.rcp.sdk_product
+Command-line arguments:  -data /home/kfu/Documents/vaadin-app/wizard -os linux -ws gtk -arch x86_64 -product org.eclipse.ice.client.rcp.sdk_product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2017-02-23 13:38:26.611
+!MESSAGE Could not bind a reference of component org.eclipse.january.geometry.model.factory. The reference is: Reference[name = IGeometryImporterService, interface = org.eclipse.january.geometry.model.importer.IGeometryImporterService, policy = dynamic, cardinality = 0..n, target = null, bind = register, unbind = null]
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-02-23 13:38:26.749
+!MESSAGE Both 'org.eclipse.january.geometry.xtext.iges' and 'org.eclipse.january.geometry.xtext.vtk' register a package for 'http://www.eclipse.org/january/geometry/xtext/IGES'
+
+!ENTRY org.eclipse.january.geometry.xtext.vtk 2 0 2017-02-23 13:38:26.854
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.january.geometry.xtext.obj
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.january.geometry.xtext.vtk.service.VTKGeometryImporterService
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.eclipse.january.geometry.model.importer.IGeometryImporterService]
+	references = null
+	located in bundle = org.eclipse.january.geometry.xtext.vtk_0.1.1.201701112037 [477]
+]
+Component2: Component[
+	name = org.eclipse.january.geometry.xtext.obj
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.january.geometry.xtext.obj.service.OBJGeometryImporterService
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.eclipse.january.geometry.model.importer.IGeometryImporterService]
+	references = null
+	located in bundle = org.eclipse.january.geometry.xtext.obj_0.1.1.201701112037 [474]
+]  
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:31.697
+!MESSAGE Schedule fetching all notifications
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:31.702
+!MESSAGE Schedule version update jobs
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.068
+!MESSAGE Fetching all notifications
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.069
+!MESSAGE Requesting user info (notification settings URL)
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.555
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.559
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.570
+!MESSAGE Parse notifications
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.582
+!MESSAGE Save JSON notifications content to cache file /home/kfu/Documents/vaadin-app/wizard/.metadata/.plugins/com.vaadin.integration.eclipse/notifications-cache.json
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-02-23 13:38:32.608
+!MESSAGE Removing part descriptor with the 'org.eclipse.eavp.viz.plotviewer.CSVDataTableViewer' id and the 'CSV Data View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.714
+!MESSAGE Icon https://vaadin.com/documents/10187/3851288/Vaadin-8-0.png is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.793
+!MESSAGE Icon https://vaadin.com/image/image_gallery?uuid=4221fd8a-73d7-454a-9c19-09355df5db7c&groupId=10187&t=1377629580533 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.843
+!MESSAGE Icon https://vaadin.com/image/image_gallery?uuid=3056683e-c386-458b-b75b-dd2602f1e079&groupId=10187&t=1377524470823 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:32.888
+!MESSAGE Icon https://vaadin.com/image/image_gallery?uuid=18682a9f-1321-496c-9b4c-6e6af1efb22c&groupId=10187&t=1381328788305Scheme is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:33.034
+!MESSAGE Image https://vaadin.com/documents/10187/3851288/vaadin-new-version.png/ac0a4d68-705b-46ec-866f-8cc7a657a99c?t=1415802870933 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:33.206
+!MESSAGE Image https://vaadin.com/image/image_gallery?img_id=3851299&t=1385741714872 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:33.308
+!MESSAGE Image https://vaadin.com/image/image_gallery?uuid=0f08ce30-8921-4e5a-b9b7-782253ba3254&groupId=10187&t=1377524127827 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:33.400
+!MESSAGE Image https://vaadin.com/image/image_gallery?uuid=1b16f25c-d29d-402b-8b66-f8d69c6bf87d&groupId=10187&t=1379421069097 is downloaded
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:38:33.432
+!MESSAGE Schedule fetching new notifications
+
+!ENTRY com.vaadin.designer 1 0 2017-02-23 13:39:01.718
+!MESSAGE All vaadin 7+ projects : []
