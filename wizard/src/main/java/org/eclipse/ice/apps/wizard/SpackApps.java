@@ -25,8 +25,10 @@ public class SpackApps extends VerticalLayout {
 	protected TextField txtFieldPackageSearch;
 	protected Panel pnlPackageList;
 	protected VerticalLayout packageList;
-	protected Label dummyLabel;
+	protected Button btnAddFromRepo;
 	protected Button btnAdvanced;
+	protected VerticalLayout vlayoutEnvironment;
+	protected Label dummyLabel;
 	protected Button btnInstall;
 
 	public SpackApps() {

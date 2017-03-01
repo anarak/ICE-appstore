@@ -27,6 +27,7 @@ import com.vaadin.ui.VerticalLayout;
 public class MyUI extends UI {
 	Navigator navigator;
 	protected static final String MAINVIEW = "main";
+	private int chkBoxCounter = 0;
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
@@ -54,14 +55,21 @@ public class MyUI extends UI {
 			gView.packageList.addComponent(pkg);
 			pkg.chkBoxPackages.addValueChangeListener( e -> {
 				if(pkg.chkBoxPackages.getValue() == true) {
+					pkg.lblDependantPackage.setVisible(true);
 					gView.btnInstall.setEnabled(true);
-					System.out.println(pkg.chkBoxPackages.getValue());
+					chkBoxCounter++;
 				}
 				if(pkg.chkBoxPackages.getValue() == false) {
-					gView.btnInstall.setEnabled(false);
+					pkg.lblDependantPackage.setVisible(false);
+					chkBoxCounter--;
+					if (chkBoxCounter == 0) {
+						gView.btnInstall.setEnabled(false);
+					}
 				}
 			});
 		}
+		
+		
 		
 //		Iterator<Component> iterate = gView.packageList.iterator();
 //		while (iterate.hasNext()) {

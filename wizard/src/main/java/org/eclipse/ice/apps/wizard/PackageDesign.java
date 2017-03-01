@@ -20,6 +20,7 @@ import com.vaadin.ui.declarative.Design;
 @SuppressWarnings("serial")
 public class PackageDesign extends VerticalLayout {
 	protected CheckBox chkBoxPackages;
+	protected Label lblDependantPackage;
 	protected Label packageDescr;
 
 	public PackageDesign() {

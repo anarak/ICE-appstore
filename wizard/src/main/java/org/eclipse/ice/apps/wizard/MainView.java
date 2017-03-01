@@ -34,9 +34,9 @@ public class MainView extends EnvironmentDesign implements View {
 		});
 		
 		navigator = getUI().getNavigator();
-        btnEnvBack.addClickListener( e -> {
-        	navigator.navigateTo("");
-       	});             
+//        btnEnvBack.addClickListener( e -> {
+//        	navigator.navigateTo("");
+//       	});             
 	}
 
 }
