@@ -1,7 +1,7 @@
 package org.eclipse.ice.apps.wizard;
 
 /**
- * @author kfu
+ * @author
  *
  */
 public class Package extends PackageDesign {

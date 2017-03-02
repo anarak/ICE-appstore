@@ -13,7 +13,7 @@ import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.declarative.Design;
 
 /**
- * @author kfu
+ * @author
  *
  */
 public class StartView extends VerticalLayout implements View {

@@ -14,14 +14,12 @@ public class MainView extends EnvironmentDesign implements View {
 	
 	@Override
 	public void enter(ViewChangeEvent event) {
-		// TODO Auto-generated method stub
 		optionGroupInstallType.addValueChangeListener( e -> {
 			if (optionGroupInstallType.getValue().equals("Folder")) {
 				envVerticalLayout.addComponent(folderEnv);
 				if (dockerEnv.isVisible()) {
 					envVerticalLayout.removeComponent(dockerEnv);
 				}
-				
 			}
 			if (optionGroupInstallType.getValue().equals("Docker container")) {
 				envVerticalLayout.addComponent(dockerEnv);
@@ -29,8 +27,6 @@ public class MainView extends EnvironmentDesign implements View {
 					envVerticalLayout.removeComponent(folderEnv);					
 				}
 			}
-			
-			//System.out.println(optionGroupInstallType.getValue());
 		});
 		
 		navigator = getUI().getNavigator();

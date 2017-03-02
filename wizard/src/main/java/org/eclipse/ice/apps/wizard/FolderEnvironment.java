@@ -4,7 +4,7 @@
 package org.eclipse.ice.apps.wizard;
 
 /**
- * @author kfu
+ * @author
  *
  */
 public class FolderEnvironment extends FolderEnvDesign {

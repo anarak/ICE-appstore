@@ -27,63 +27,15 @@ import com.vaadin.ui.VerticalLayout;
 public class MyUI extends UI {
 	Navigator navigator;
 	protected static final String MAINVIEW = "main";
-	private int chkBoxCounter = 0;
+	
 
     @Override
-    protected void init(VaadinRequest vaadinRequest) {
-        //final VerticalLayout layout = new VerticalLayout();
-    	
-        /*final TextField name = new TextField();
-        name.setCaption("Type your name here:");
-
-        Button button = new Button("Click Me");
-        button.addClickListener( e -> {
-            layout.addComponent(new Label("Thanks " + name.getValue() 
-                    + ", it works!"));
-        });
-        
-        layout.addComponents(name, button);
-        layout.setMargin(true);
-        layout.setSpacing(true);
-        
-        setContent(layout);*/
-    	
-    	final GeneralView gView = new GeneralView();
-    	
-		for (int i=0; i<10; i++) {
-			final Package pkg = new Package();
-			gView.packageList.addComponent(pkg);
-			pkg.chkBoxPackages.addValueChangeListener( e -> {
-				if(pkg.chkBoxPackages.getValue() == true) {
-					pkg.lblDependantPackage.setVisible(true);
-					gView.btnInstall.setEnabled(true);
-					chkBoxCounter++;
-				}
-				if(pkg.chkBoxPackages.getValue() == false) {
-					pkg.lblDependantPackage.setVisible(false);
-					chkBoxCounter--;
-					if (chkBoxCounter == 0) {
-						gView.btnInstall.setEnabled(false);
-					}
-				}
-			});
-		}
-		
-		
-		
-//		Iterator<Component> iterate = gView.packageList.iterator();
-//		while (iterate.hasNext()) {
-//			Component c = iterate.next();
-//			c.addListener( e -> {
-//			});
-//			System.out.println();
-//		}
+    protected void init(VaadinRequest vaadinRequest) {    	
+    	navigator = new Navigator(this, this);
     	
     	getPage().setTitle("Main page");
     	
-    	navigator = new Navigator(this, this);
-   	
-    	navigator.addView("", gView);
+    	navigator.addView("", new GeneralView());
     	navigator.addView("main", new MainView());
     }
 
