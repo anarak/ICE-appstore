@@ -1,0 +1,7 @@
+.recommenders
+.metadata
+Servers
+Tomcat_web_server
+itemDB
+RemoteSystemsTempFiles
+*.~
